@@ -73,14 +73,13 @@ p {
 h1 {
     margin-bottom: 1.438rem;
 }
+.core-intro {
+    margin: 0 auto 5.75rem;
+    width: 63%;
+}
 
 article {
     flex: 0 0 23.078%;
-    height: 18.125rem;
-}
-.core-intro {
-    margin: 0 auto 5.75rem;
-    width: 46rem;
 }
 
 .article-icon {
@@ -99,4 +98,9 @@ h2 {
 article {
     border-radius: 0.625rem;
     box-shadow: 0 0.438rem 1.688rem 0 rgba(0, 0, 0, 0.10);
+}
+
+/* Responsive Design */
+@media screen and (orientation:portrait) , ((width <=750px) and (height <=735px)) {
+    .core-options {flex-direction: column;}
 }
