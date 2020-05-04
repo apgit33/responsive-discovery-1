@@ -48,3 +48,49 @@ h1, h2 {
 p {
     color: #5E5E5E;
 }
+
+/* Class flex generale */
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+.container {
+    max-width: 73.125rem;
+}
+
+/* Mise en forme texte general*/
+
+#core {
+    text-align: center;
+    margin: 7.25rem auto;
+}
+
+h1 {
+    margin-bottom: 1.438rem;
+}
+
+article {
+    flex: 0 0 23.078%;
+    height: 18.125rem;
+}
+.core-intro {
+    margin: 0 auto 5.75rem;
+    width: 46rem;
+}
+
+.article-icon {
+    margin: 3.563rem auto 1.2rem;
+}
+
+h2 {
+    margin: 0 auto 1.063rem;
+}
+
+.desc {
+    margin: 0 2.063rem 3.125rem;
+} 
