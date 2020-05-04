@@ -63,7 +63,7 @@ p {
     max-width: 73.125rem;
 }
 
-/* Mise en forme texte general*/
+/* Mise en forme texte general et dimension*/
 
 #core {
     text-align: center;
@@ -94,3 +94,9 @@ h2 {
 .desc {
     margin: 0 2.063rem 3.125rem;
 } 
+
+/* Mise en forme visuelle et ombre */
+article {
+    border-radius: 0.625rem;
+    box-shadow: 0 0.438rem 1.688rem 0 rgba(0, 0, 0, 0.10);
+}
